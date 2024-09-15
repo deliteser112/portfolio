@@ -15,8 +15,119 @@ import gighive1 from '$lib/screenshots/GigHive/gighive.png';
 import gighive2 from '$lib/screenshots/GigHive/Screenshot1.png';
 import gighive3 from '$lib/screenshots/GigHive/Screenshot2.png';
 
+import ThredUp from '$lib/screenshots/ThredUp/Screenshot_1.png';
+import Fabuwood from '$lib/screenshots/Fabuwood/Screenshot_1.png';
+import Wunderflats from '$lib/screenshots/Wunderflats/Screenshot_1.png';
+import OnCyber from '$lib/screenshots/OnCyber/Screenshot_1.png';
+import G_Adventures from '$lib/screenshots/G_Adventures/Screenshot_1.png';
 
 export const items: Array<Project> = [
+	{
+		slug: 'ThredUp',
+		color: 'blue',
+		description:
+			'I developed and optimized the e-commerce platform to handle high traffic, creating advanced search and filtering functionalities for product listings. I built scalable APIs for managing inventory, payment processing, and user profiles, while enhancing the user experience with personalized product recommendations. Additionally, I ensured secure payment integration and implemented strong data protection measures',
+		shortDescription:
+			'Online secondhand fashion marketplace',
+		links: [{ to: 'https://www.thredup.com/', label: 'ThredUp' }],
+		logo: Assets.ThredUp,
+		name: 'Secondhand Fashion',
+		period: {
+			from: new Date(2023, 5, 31), to: new Date(2024, 7, 31)
+		},
+		skills: getSkills('ts', 'tailwind', 'js', 'html', 'mui', 'js', 'c#', '.net', 'azuredevops', 'mongodb'),
+		type: 'E-commerce/Online Thrift Store',
+		screenshots: [
+			{ label: 'Home Page', src: ThredUp },
+
+		]
+	},
+
+	{
+		slug: 'Fabuwood',
+		color: 'blue',
+		description:
+			'I designed a custom product catalog and configurator, allowing users to explore and customize cabinetry options. I implemented an interactive quoting system for B2B clients and developed a user-friendly CMS to facilitate easy updates. Additionally, I integrated 3D rendering tools for kitchen design previews and streamlined backend systems for efficient inventory management and order tracking.',
+		shortDescription:
+			'Custom kitchen cabinetry provider',
+		links: [{ to: 'https://www.fabuwood.com/', label: 'Fabuwood' }],
+		logo: Assets.Fabuwood,
+		name: 'Kitchen Cabinetry',
+		period: {
+			from: new Date(2021, 5, 31), to: new Date(2023, 1, 31)
+		},
+		skills: getSkills('mui', 'js', 'c#', '.net', 'azuredevops', 'mongodb','ts', 'tailwind', 'js', 'html'),
+		type: 'B2B/B2C Manufacturing',
+		screenshots: [
+			{ label: 'Home Page', src: Fabuwood },
+
+		]
+	},
+
+	{
+		slug: 'Wunderflats',
+		color: '#ff3e00',
+		description:
+			'I developed a robust property listing and booking system with real-time availability, alongside a user dashboard for managing bookings, payments, and leases. I integrated secure payment gateways and identity verification for renters, optimized the platform for SEO and local searches, and implemented advanced filtering options based on user preferences such as location, price, and rental duration.',
+		shortDescription:
+			'Furnished apartment rental platform.',
+		links: [{ to: 'https://wunderflats.com/', label: 'Wunderflats' }],
+		logo: Assets.Wunderflats,
+		name: 'Furnished Rentals',
+		period: {
+			from: new Date(2018, 5, 31), to: new Date(2020, 10, 31)
+		},
+		skills: getSkills('ts', 'tailwind', 'js', 'html'),
+		type: 'Real Estate/Rental Platform',
+		screenshots: [
+			{ label: 'Home Page', src: Wunderflats },
+
+		]
+	},
+
+
+	{
+		slug: 'OnCyber',
+		color: 'yellow',
+		description:
+			"I built a fully immersive 3D gallery experience using WebGL and Three.js, integrated blockchain technology for NFT minting and trading, and developed smart contracts for secure transactions and royalties. I ensured the platform's scalability to handle large volumes of digital assets and users, while developing an intuitive content management interface for artists to upload and manage their collections.",
+		shortDescription:
+			'Virtual 3D NFT art gallery',
+		links: [{ to: 'https://oncyber.io/', label: 'OnCyber' }],
+		logo: Assets.OnCyber,
+		name: 'Digital Art/NFT Platform',
+		period: {
+			from: new Date(2021, 5, 31), to: new Date(2022, 4, 31)
+		},
+		skills: getSkills('ts', 'tailwind', 'flask', 'postgreSQL', 'python', 'jest', 'reactjs', 'js', 'html'),
+		type: 'Virtual Art Gallery/NFT Marketplace',
+		screenshots: [
+			{ label: 'Home Page', src: OnCyber },
+
+		]
+	},
+
+	{
+		slug: 'Adventure Travel',
+		color: 'yellow',
+		description:
+			"I developed an advanced booking system with multiple filters such as location, activity type, and dates. I integrated payment gateways with flexible pricing options for different packages and built a dynamic CMS to manage tour listings and content updates. I also implemented a review and rating system to enhance user trust and created mobile-friendly features to ensure seamless trip management on the go.",
+		shortDescription:
+			'Small-group adventure travel provider.',
+		links: [{ to: 'https://www.gadventures.com/', label: 'Adventure Travel' }],
+		logo: Assets.G_Adventures,
+		name: 'Adventure Travel',
+		period: {
+			from: new Date(2016, 5, 31), to: new Date(2018, 8, 31)
+		},
+		skills: getSkills('flask', 'postgreSQL', 'python', 'jest', 'reactjs', 'ts', 'tailwind', 'js', 'html'),
+		type: 'Travel & Tourism',
+		screenshots: [
+			{ label: 'Home Page', src: G_Adventures },
+
+		]
+	},
+
 	{
 		slug: 'Kalygo',
 		color: 'blue',

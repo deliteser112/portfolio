@@ -97,6 +97,11 @@ const Assets = {
 	Lacework: a('lacework_logo.jpg'),
 	Axcient: a('axcient_logo.jpg'),
 
+	ThredUp: a('thredup_logo.jpg'),
+	Fabuwood: a('fabuwood_logo.jpg'),
+	Wunderflats: a('wunderflats_logo.jpg'),
+	OnCyber: a('supercharged_gg_logo.jpg'),
+	G_Adventures: a('g_adventures_logo.jpg'),
 };
 
 export default Assets;
