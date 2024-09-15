@@ -73,6 +73,7 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	Geeks: a('4GeeksAcademy.jpg'),
 	JaimeIsaza: a('jaimeIsaza.jpeg'),
+	BoulderLogo: a('boulder.jpeg'),
 	Mui: a('mui.png'),
 	Dotnet: a('dotnet.png'),
 	Revature: a('revature.png'),
@@ -90,6 +91,12 @@ const Assets = {
 	GigHive: a('gighive.png'),
 	RealEstate: a('realestate.png'),
 	Figma: a('figma.jpeg'),
+
+	Iyrix: a('iyrix_logo.jpg'),
+	ByteConsulting: a('byte_consulting_logo.jpg'),
+	Lacework: a('lacework_logo.jpg'),
+	Axcient: a('axcient_logo.jpg'),
+
 };
 
 export default Assets;

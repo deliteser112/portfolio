@@ -15,13 +15,13 @@ export const items: Array<Education> = [
 		subjects: ['HTML5','CSS3', 'Bootstrap', 'JavaScript', 'React', 'Python', 'Flask', 'SQLAlchemy', 'PostgreSQL']
 	},
 	{
-		degree: 'Associate degree in Software Development',
-		description: '',
-		location: 'Medellin, Colombia',
-		logo: Assets.JaimeIsaza,
+		degree: "Bachelor's degree in Computer Science",
+		description: 'During my four years at the University of Colorado Boulder, I immersed myself in a rigorous Computer Science program that provided a strong foundation in both theoretical and practical aspects of the field. My curriculum covered a wide range of subjects including algorithms, data structures, software engineering, database management, computer networks, and artificial intelligence.',
+		location: 'Boulder, Colorado',
+		logo: Assets.BoulderLogo,
 		name: '',
-		organization: 'Colombian Polytechnic "Jaime Isaza Cadavid"',
-		period: { from: new Date(2016, 1, 7), to: new Date(2018, 11, 28)},
+		organization: 'University of Colorado Boulder',
+		period: { from: new Date(2009, 4, 1), to: new Date(2013, 4, 1)},
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: ['Front end Development', 'Back end Development', 'Computer Architecture', 'Algorithms and Data structures', 'Project Management', 'Java', 'JavaScript']
